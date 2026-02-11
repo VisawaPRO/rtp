@@ -4,48 +4,38 @@
     <meta charset="UTF-8">
     <title>ระบบสาธารณสุข</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
-<header>
+<header class="header">
     <h1>ระบบสาธารณสุข</h1>
-    <nav>
-        <a href="#home">หน้าแรก</a>
-        <a href="#services">บริการ</a>
-        <a href="#about">เกี่ยวกับ</a>
-        <a href="#contact">ติดต่อ</a>
+    <nav class="menu">
+        <a href="#">หน้าแรก</a>
+        <a href="#">บริการ</a>
+        <a href="#">เกี่ยวกับ</a>
+        <a href="#">ติดต่อ</a>
     </nav>
 </header>
 
-<section id="home" class="hero">
+<section class="hero">
     <h2>ดูแลสุขภาพ เพื่อชีวิตที่ดี</h2>
     <button onclick="showMessage()">ตรวจสอบสุขภาพ</button>
 </section>
 
-<section id="services">
+<section class="services">
     <h2>บริการของเรา</h2>
+
     <div class="card-container">
         <div class="card">ตรวจสุขภาพ</div>
         <div class="card">ให้คำปรึกษา</div>
         <div class="card">วัคซีน</div>
+        <div class="card">ฉุกเฉิน 24 ชม.</div>
     </div>
 </section>
 
-<section id="about">
-    <h2>เกี่ยวกับระบบ</h2>
-    <p>
-        ระบบสาธารณสุขนี้ออกแบบเพื่อให้ประชาชนสามารถเข้าถึงข้อมูลสุขภาพ 
-        และบริการพื้นฐานได้อย่างสะดวกและรวดเร็ว
-    </p>
-</section>
-
-<section id="contact">
-    <h2>ติดต่อ</h2>
-    <p>โทร: 1669</p>
-</section>
-
 <footer>
-    <p>© 2026 Public Health System</p>
+    © 2026 Public Health System
 </footer>
 
 <script src="script.js"></script>
